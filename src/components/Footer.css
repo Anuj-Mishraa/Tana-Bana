@@ -1,0 +1,37 @@
+.footer {
+    max-width: 100%;
+    height: auto;
+    background-color: var(--teal_blue);
+    color: #fff;
+    padding: 100px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__logo h2 {
+    margin: 0;
+    font-family: Bricolage Grotesque;
+    width: 20vw;
+    text-align: center;
+}
+
+.footer__links {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__links a {
+    color: var(--light_gray);
+    font-size: 1.2rem;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.footer__copy-right {
+    width: 20vw;
+    font-size: 1rem;
+}

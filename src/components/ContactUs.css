@@ -1,0 +1,60 @@
+.contact_cmp {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light_gray);
+}
+
+.contact-us {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-family: Bricolage Grotesque;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    font-family: Poppins;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--light_gray);
+    font-family: Poppins;
+}
+
+button[type='submit'] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--teal_blue);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+button[type='submit']:hover {
+    background-color: var(--teal_blue);
+}

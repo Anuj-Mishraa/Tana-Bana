@@ -1,0 +1,37 @@
+:root {
+    --teal_blue: #1995AD;
+    --light_blue: #A1D6E2;
+    --light_gray: #F1F1F2;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--teal_blue);
+    color: var(white);
+    padding: 20px 50px;
+}
+
+.navbar__logo h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: Bricolage Grotesque;
+}
+
+.navbar__links {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Poppins;
+    cursor: pointer;
+}

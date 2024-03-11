@@ -1,0 +1,35 @@
+.services,
+.services_header {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    background-color: var(--light_gray);
+}
+
+.services_header {
+    font-size: 2.5rem;
+    font-family: Bricolage Grotesque;
+}
+
+.services__button {
+    padding: 15px 60px;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: var(--teal_blue);
+    color: white;
+}
+
+.services__button:hover {
+    background-color: var(--light_blue);
+    border: 2px solid var(--teal_blue);
+    transition: all 0.2s ease;
+    color: black;
+}
